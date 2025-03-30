@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    width: 100%;
+    background: linear-gradient(125deg, #0004ffe8, #7acaffbd,#1100ffe8);
+ }
+.curriculo {
+    border-radius: 30px;
+    width: 600px;
+    height: 800px;
+}
+
+.div-azul-esquerda {
+    background-color: #1f3674ea;
+    width: 270px;
+    color: #ebe8e8;
+    float: left;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.301);
+}
+
+.div-branca-direita {
+    background-color: #00000046;
+    width: 330px;
+    color: #ebe8e8;
+    float: right;
+    height: 100%;
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.img-s {
+    width: 70%;
+    border-radius: 100%;
+    border: 8px solid;
+    border-color: #40b6e0;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.div-conteudo-azul {
+    margin: 15px 10px 25px;
+    padding-left: 20px;
+    /* border: 1px solid black; */
+}
+
+.div-conteudo-branca {
+    margin: 35px 15px 25px;
+    padding-right: 20px;
+    /* border: 1px solid black; */
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #40b6e0;
+    font-weight: 900;
+    margin-top: -12px;
+}
+
+
+h4 {
+    text-transform: uppercase;
+}
+
+.carreira {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.competencia,
+.contato {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+h5 {
+    color: #40b6e0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+ul {
+    margin-left: 15px;
+}
+
+ul li {
+    font-size: 11px;
+    padding: 2px 0;
+}
+
+.titulo-lado-branco {
+    background-color: #1f3674;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+h6 {
+    padding: 5px 10px;
+    color: #40b6e0;
+    font-size: 13px;
+}
+
+.ul-lado-branco {
+    margin-left: 25px;
+}
+
+
+.contatos {
+    padding-left: 10px;
+}
+.div-formacao{
+    font-size: 18px;
+}
+.div-referencia{
+    font-size: 18px;
+}
